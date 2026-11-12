@@ -1,0 +1,33 @@
+WARC/1.1
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:00000000-0000-4000-8000-000000000002>
+WARC-Date: 2026-11-02T00:00:00Z
+WARC-Target-URI: https://archive.example/product/1
+Content-Type: application/http; msgtype=response
+WARC-Profile: http://netpreserve.org/warc/1.1/revisit/identical-payload-digest
+WARC-Truncated: length
+WARC-Refers-To: <urn:uuid:00000000-0000-4000-8000-000000000001>
+WARC-Payload-Digest: sha1:N2HPJHX2VG2W5EC5NUUAMC5I63VGJNKW
+Content-Length: 41
+
+HTTP/1.1 200 OK
+Content-Language: zh
+
+
+
+WARC/1.1
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:00000000-0000-4000-8000-000000000003>
+WARC-Date: 2026-11-01T00:00:00Z
+WARC-Target-URI: https://archive.example/product/1
+Content-Type: application/http; msgtype=response
+WARC-Profile: http://netpreserve.org/warc/1.1/revisit/identical-payload-digest
+WARC-Truncated: length
+WARC-Refers-To: <urn:uuid:00000000-0000-4000-8000-000000000003>
+WARC-Payload-Digest: sha1:N2HPJHX2VG2W5EC5NUUAMC5I63VGJNKW
+Content-Length: 19
+
+HTTP/1.1 200 OK
+
+
+

@@ -1,0 +1,25 @@
+WARC/1.1
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:00000000-0000-4000-8000-000000000001>
+WARC-Date: 2026-11-01T00:00:00Z
+WARC-Target-URI: https://archive.example/product/1
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:N2HPJHX2VG2W5EC5NUUAMC5I63VGJNKW
+Content-Length: 101
+
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+
+合成归档产品甲
+
+WARC/1.1
+WARC-Type: metadata
+WARC-Record-ID: <urn:uuid:00000000-0000-4000-8000-000000000004>
+WARC-Date: 2026-11-01T00:00:00Z
+WARC-Target-URI: https://archive.example/product/1
+Content-Type: text/plain; charset=utf-8
+Content-Length: 18
+
+本地授权归档
+
